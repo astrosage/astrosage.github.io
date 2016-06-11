@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <META NAME="aaron" CONTENT="resume">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="scripts/wow.min.js"></script>
@@ -20,94 +21,160 @@
 
   ga('create', 'UA-78258443-1', 'auto');
   ga('send', 'pageview');
-
 	</script>
-  <style>
-  body {
-      position: relative; 
-  }
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menu00,#menu01,#menu02,#menu03').click(function(){
+        $('.content-top').css({"animation":"content-top .5s ease-in-out"});
+        $('#right_content').css({"border-top":"2px solid #41D6C3"});
+      });
 
-  footer{
-  	background-color: grey;
-  	position: relative;
-  	bottom: 0;
-  	height: 48px;
-  	line-height: 48px;
-  	color: white;
-  }
-  .avatar{
-  	height: 192px;width: 192px;background-color: white;margin: 0 auto;position:relative;top:0px;border-radius: 50%;
-  }
+      $('#menu00,#menu01,#menu02,#menu03').mouseleave(function(){
+        $('.content-top').css({"animation":"none"});
+        $('#right_content').css({"border-top":"2px solid lightgrey"});
+      });
 
-  #section1 {padding-top:50px;height:300px;color: #fff; background-color: #7CB342;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-  </style>
+       $("#avatar").mouseover(function(){
+        $('#name_card').css({'opacity':'.5'});
+       });
+
+       $("#avatar").mouseleave(function(){
+        $('#name_card').css({'opacity':'1'});
+       });
+
+    }); 
+
+
+  </script>
+  
 </head>
 <body>
-<div id="section1" class="container-fluid text-center">
-  <h1 style="font-size: 6em;">Aaron Hsu</h1>
-  <h3>UI/UX Designer</h3>
+<div style='height:40px;width: 100%; '>
 </div>
-<div class="container-fluid">
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Resume</a></li>
-    <li><a data-toggle="tab" href="#menu1">UI</a></li>
-    <li><a data-toggle="tab" href="#menu2">ID</a></li>
-    <li><a data-toggle="tab" href="#menu3">Contact</a></li>
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="container-fluid row">
+  <div class="col-sm-1"></div>
+  <!--===left Menu Begin==-->
+  <div class="col-sm-2" id="left_menu" >
+    <div id="avatar" class="text-center">
+      <img id="avatar" src="pic/avatar.jpg" style="width:100%;">
+      <div id="name_card">
+        <h3>Aaron Hsu</h3>
+        <p>UI/UX Designer</p>
+      </div>
     </div>
-    <!--============page01 end===============-->
-    <!--============page02 begin===============-->
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <form action="https://formspree.io/astrosage@gmail.com"
-            method="POST">
-          <input type="text" name="name">
-          <input type="email" name="_replyto">
-          <input type='text' name='message'>
-          <input type="submit" value="Send">
-      </form>
-    </div>
+    
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active" id="menu00"><a data-toggle="tab" href="#home">Resume</a></li>
+        <li id="menu01"><a data-toggle="tab" href="#menu1">UI</a></li>
+        <li id="menu02"><a data-toggle="tab" href="#menu2">ID</a></li>
+        <li id="menu03"><a data-toggle="tab" href="#menu3">Contact</a></li>
+    </ul>
+    
+    <hr>
   </div>
-</div>
+  <!--===left Menu End==-->
+  <!--===Right Content Begin==-->
+  <div class="col-sm-8" id='right_content'>
+      <div class='content-top'>
+      </div>
+      <div class="container-fluid">
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <!--============page01 end===============-->
+          <!--============page02 begin===============-->
+          <div id="menu1" class="tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+          <!--=============Page03 begin====================-->
+          <div id="menu3" class="tab-pane fade" style="padding-bottom:16px;">
+            <div class="container-fluid row">
+              <div class='col-sm-12 '>
+              </div>
+              <div class="col-sm-1"></div>
+              <div class="col-sm-10">
+                  <h3>Contact</h3>
+                  <form  class="form-horizontal text-left" role="contact" action="https://formspree.io/astrosage@gmail.com" method="POST">
+                      <div class="form-group">
+                        <label class="control-label col-sm-1 col-xs-1" for="Name"><img src="pic/icon/icon_16_name.png"></label>  
+                        <div class="col-sm-11 col-xs-11">
+                          <input  class="form-control" id="input_name" type="text" name="name" placeholder="Your Name" maxlength="30">
+                        </div>
+                      </div>
+                      <div class="form-group" >
+                        <label class="control-label col-sm-1 col-xs-1 " for="email"><img src="pic/icon/icon_16_mail.png"></label> 
+                        <div class="col-sm-11 col-xs-11">
+                          <input class="form-control" id="input_mail" type="email" name="_replyto"  maxlength="60" placeholder="Your Mail Address">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-1 col-xs-1" for="Message"><img src="pic/icon/icon_16_message.png"></label>
+                        <div class="col-sm-11 col-xs-11">
+                          <textarea class="form-control" id="input_message" rows="4" cols="50" name="comment" maxlength="300" id="message" placeholder="Message" ></textarea>
+                        </div>
+                      </div>
+                     
+                      <div class="col-sm-offset-10 col-sm-2 text-right"   style="padding:0" >
+                        <input type="submit" class="btn btn-default" id="input_submit" value="Send" style="float:right">
+                      </div>
+                      <script type="text/javascript">
+                         $(document).ready(function(){
+                            var name=$("#input_name");
+                            var mail=$("#input_mail");
+                            var message=$("#input_message");
+                            
+                           
 
+                            /*判斷姓名欄位是否大於3*/
+                            $('#input_name').blur(function(){
+                                if(name.val().length < 2){
+                                  $('#input_name').css({'border':'1px solid #E71D32'});
+                                  $('#input_submit').attr('disabled','disabled');
+                                  $('#input_name').attr('placeholder','tell me your name');
+                                  $('#input_name').val('');
+                                }
+                                else if (name.val().length >= 2){
+                                  $('#input_name').css({'border':'1px solid #41D6C3'});
+                                }
+                            });
 
-<!--div id="section2" class="container-fluid">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                            $('#input_message').blur(function(){
+                                if(message.val().length < 3){
+                                  $('#input_message').css({'border':'1px solid #E71D32'});
+                                  $('#input_message').attr('placeholder','leave more message');
+                                  $('#input_message').val('');
+                                  $('#input_submit').attr('disabled','disabled');
+                                }
+                                else if (message.val().length >= 3 ){
+                                  $('#input_message').css({'border':'1px solid #41D6C3'});
+                                }
+
+                                else if(name.val().length >= 2  &&  message.val().length >= 3 ){
+                               $('#input_submit').removeAttr('disabled');
+                            }
+                            });
+                            
+                         });
+                      </script>
+                  </form>
+              </div>
+              <div class="col-sm-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!--===Right Content End==-->
+  <div class="col-sm-1"></div>
 </div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Section 4 Submenu 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Section 4 Submenu 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div-->
 
 </body>
 </html>

@@ -1,0 +1,152 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body{
+	margin: 0 auto;
+	font-family: 'Noto Sans TC','Noto Sans JP','cwTeXHei', sans-serif;
+	background-color: #DFE9E9;
+	overflow-x:hidden;
+	background-image: url("pic/background.png");
+}
+
+
+
+#right_content{
+	background-color: white;
+	box-shadow: 1px 1px 1px lightgrey;
+	margin: 0 10px;
+	padding: 0;
+	transition: .5s;
+	float:left;
+}
+
+.content-top{
+	width: 100%;
+	height: 2px;
+	float: left;
+	background-color: white;
+	
+}
+
+@keyframes content-top{
+	from{ box-shadow: inset 0vw 0 0 #00B4A0; }
+	to{box-shadow: inset 100vw 0 0 #41D6C3;}
+}
+
+
+
+/*↓↓↓left menu style begin*/
+
+#avatar{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: .5s;
+}
+
+#avatar:hover{
+	-webkit-filter: grayscale(10%);
+	filter: grayscale(10%);
+	transition: .5s
+}
+
+#name_card{
+	padding: 8px;
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	color: white;
+	margin-bottom:-80px;
+	top:-102px;
+	position: relative; 
+	transition: .5s
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #00B4A0;
+    border-radius: 0;
+    animation: nav-pill .5s ease-in-out;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+    transition: .5s;
+}
+
+.nav-pills>li>a:hover{
+	box-shadow: inset 4px 0 0  #41D6C3;
+	transition: .5s;
+}
+
+@keyframes	nav-pill {
+	0%{box-shadow: inset 0vw 0 0 #6EEDD8;}
+	100%{box-shadow: inset 20vw 0 30px #41D6C3;}
+}
+
+#left_menu{
+	background-color: white;
+	padding:0;
+	box-shadow: 1px 1px 1px lightgrey;
+}
+
+/*↑↑↑↑left menu style end*/
+
+/*btn*/
+
+.btn:active{
+	box-shadow:inset 0 0 0 white;
+	outline: none;
+}
+
+.btn-default{
+	padding: 8px 32px;
+}
+.btn-default,.btn-default:hover{
+	border:2px solid #41D6C3 !important;
+	transition: .5s;
+	border-radius: 0;
+}
+
+.btn-default:hover{
+	background-color: #41D6C3;
+	color: white;
+}
+
+.btn-default.active{
+	background-color: red;
+}
+/*btn end*/
+
+/*form-control*/
+
+.form-control{
+	border-radius: 0;
+}
+.form-control:focus{
+	box-shadow: none;
+	border:1px solid #41D6C3;
+	transition:.5s;
+}
+
+.form-group{
+	border-bottom: 1px solid lightgrey;
+	padding: 8px 0px;
+	margin: 4px;
+}
+
+.form-group:nth-child(3){
+	border-bottom: 0px solid lightgrey;
+
+}
+.control-label{
+	
+	padding: 10px;
+
+}
+
+.banner{
+	height: 96px;
+	background-color: grey;
+	position: relative;
+	float: left;
+}
