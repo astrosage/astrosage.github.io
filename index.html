@@ -82,7 +82,7 @@
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
             <h3>HOME</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloaaare magna aliqua.</p>
           </div>
           <!--============page01 end===============-->
           <!--============page02 begin===============-->
@@ -133,33 +133,61 @@
                             
                            
 
-                            /*判斷姓名欄位是否大於3*/
                             $('#input_name').blur(function(){
-                                if(name.val().length < 2){
+                                if(name.val().length < 1 ){
                                   $('#input_name').css({'border':'1px solid #E71D32'});
                                   $('#input_submit').attr('disabled','disabled');
                                   $('#input_name').attr('placeholder','tell me your name');
                                   $('#input_name').val('');
                                 }
-                                else if (name.val().length >= 2){
+
+                                else if (name.val().length >= 1){
                                   $('#input_name').css({'border':'1px solid #41D6C3'});
                                 }
                             });
 
                             $('#input_message').blur(function(){
-                                if(message.val().length < 3){
+                                if(message.val().length < 1){
                                   $('#input_message').css({'border':'1px solid #E71D32'});
                                   $('#input_message').attr('placeholder','leave more message');
                                   $('#input_message').val('');
                                   $('#input_submit').attr('disabled','disabled');
                                 }
-                                else if (message.val().length >= 3 ){
+                                else if (message.val().length >= 1 ){
+                                  $('#input_message').css({'border':'1px solid #41D6C3'});
+                                  $('#input_submit').removeAttr('disabled');
+                                }
+
+                                
+                            });
+
+                            /*判斷姓名欄位是否大於1*/
+                            $('#input_submit').mouseover(function(){
+                                if(name.val().length < 1 ){
+                                  $('#input_name').css({'border':'1px solid #E71D32'});
+                                  $('#input_submit').attr('disabled','disabled');
+                                  $('#input_name').attr('placeholder','tell me your name');
+                                  $('#input_name').val('');
+                                }
+
+                                else if (name.val().length >= 1){
+                                  $('#input_name').css({'border':'1px solid #41D6C3'});
+                                  $('#input_submit').removeAttr('disabled');
+                                }
+
+
+                                if(message.val().length < 1){
+                                  $('#input_message').css({'border':'1px solid #E71D32'});
+                                  $('#input_message').attr('placeholder','leave more message');
+                                  $('#input_message').val('');
+                                  $('#input_submit').attr('disabled','disabled');
+                                }
+                                else if (message.val().length >= 1 ){
                                   $('#input_message').css({'border':'1px solid #41D6C3'});
                                 }
 
-                                else if(name.val().length >= 2  &&  message.val().length >= 3 ){
-                               $('#input_submit').removeAttr('disabled');
-                            }
+                                
+
                             });
                             
                          });
