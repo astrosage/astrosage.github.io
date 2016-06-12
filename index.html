@@ -9,6 +9,7 @@
   <META NAME="aaron" CONTENT="resume">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="scripts/wow.min.js"></script>
@@ -52,11 +53,11 @@
 <body>
 <div style='height:40px;width: 100%; '>
 </div>
-<div class="container-fluid row">
-  <div class="col-sm-1"></div>
+<div class="container-fluid row" >
+  <div class="col-sm-1" ></div>
   <!--===left Menu Begin==-->
-  <div class="col-sm-2" id="left_menu" >
-    <div id="avatar" class="text-center">
+  <div class="col-sm-2 " id="left_menu"  >
+    <div id="avatar" class="text-center"  >
       <img id="avatar" src="pic/avatar.jpg" style="width:100%;">
       <div id="name_card">
         <h3>Aaron Hsu</h3>
@@ -64,43 +65,184 @@
       </div>
     </div>
     
-    <ul class="nav nav-pills nav-stacked">
-        <li class="active" id="menu00"><a data-toggle="tab" href="#home">Resume</a></li>
-        <li id="menu01"><a data-toggle="tab" href="#menu1">UI</a></li>
-        <li id="menu02"><a data-toggle="tab" href="#menu2">ID</a></li>
-        <li id="menu03"><a data-toggle="tab" href="#menu3">Contact</a></li>
+    <ul class="nav nav-pills nav-stacked "  >
+        <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Resume</a></li>
+        <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">UI</a></li>
+        <li id="menu02"><a data-toggle="tab" href="#menu2"><img src="pic/icon/icon_16_id.png" class="menu-icon">ID</a></li>
+        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Contact</a></li>
     </ul>
     
     <hr>
+
   </div>
   <!--===left Menu End==-->
   <!--===Right Content Begin==-->
   <div class="col-sm-8" id='right_content'>
       <div class='content-top'>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <div class="tab-content">
+     <!--============page01 begin===============-->
           <div id="home" class="tab-pane fade in active">
-            <h3>HOME</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloaaare magna aliqua.</p>
+            <h3>Menu 2</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <div class="container row">
+                <h3 class='text-center'>Education</h3>
+                <hr>
+                <div class='col-sm-2'>
+                  <img src="pic/banner_300_school.svg" class='wow fadeIn' style="text-align: center; " >
+                </div>
+                <div class='col-sm-10'>
+                 
+                  <div class='col-sm-4 ' >
+                      <h5>Graduate School</h5>
+                      <hr>
+                      <p><span style="font-weight:bold;">Graduate School of Design</span><br>
+                      National Taiwan University of Science and Tech.</p>
+                      <ul>
+                        <li> 2008.09 ~  2011.07</li>
+                        <li>Major in Industrial Design</li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>Oversea Experience</h5>
+                      <hr>
+                      <p><span style="font-weight:bold;">Dept. of Industrial & Craft Design</span><br>
+                      Musashino Art Univ., Tokyo</p>
+                      <ul>
+                        <li> 2009.09 ~  2010.07</li>
+                        <li>Major in Industrial Design</li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>University</h5>
+                      <hr>
+                      <p><span style="font-weight:bold;">Dept. of Industrial & Commerical Design</span><br>
+                      National Taiwan University of Science and Tech.</p>
+                      <ul>
+                        <li> 2004.09 ~  2008.07</li>
+                        <li>Major in Industrial Design</li>
+                      </ul>
+                  </div>
+                </div>
+            </div><!--Education-->
+
+            
+            <hr>
+            <div class="container row"><!--language-->
+                <h3 class='text-center'>Language</h3>
+                <hr>
+                <div class='col-sm-2'>
+                   <img src="pic/banner_300_language.svg" class='wow fadeIn' style="margin:0 auto; " >
+                </div>
+                <div class='col-sm-10'>
+                    <div class='col-sm-4' >
+                        <h5>English</h5>
+                        <hr>
+                        <div class="progress ">
+                          <div class="progress-bar wow fadeIn " id="bar1" role="progressbar" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            TOEFL 84/120
+                          </div>
+                        </div>
+                        <div class="progress ">
+                          <div class="progress-bar wow fadeIn" id="bar2" role="progressbar" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100" style="width:73%">
+                            TOEIC 730/990
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"  >
+                        <h5>Japanese</h5>
+                        <hr>
+                        <div class="progress " >
+                          <div class="progress-bar wow fadeIn" id="bar3" role="progressbar" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                           JLPT  N2/N1
+                          </div>
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <h5>Chinese</h5>
+                        <hr>
+                        <div class="progress">
+                          <div class="progress-bar wow fadeIn" id="bar4" role="progressbar" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                           Mandarin
+                          </div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar wow fadeIn" id="bar5" role="progressbar" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                           Taiwanese
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div><!--language-->
+            <div class="container row"><!--Skill-->
+                <h3 class='text-center'>Skills</h3>
+                <hr>
+                <div class='col-sm-2'>
+                  <img src="pic/banner_300_school.svg" class='wow fadeIn' style="text-align: center; " >
+                </div>
+                <div class='col-sm-10'>
+                 
+                  <div class='col-sm-4 ' >
+                      <h5>Software</h5>
+                      <hr>
+                      <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>After Effects</li>
+                        <li>Premiere</li>
+                        <li>Cinema 4D</li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>Programing</h5>
+                      <hr>
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>jQurey</li>
+                        <li>javascript</li>
+                        <li>SVG</li>
+                        <li>Git</li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>Others</h5>
+                      <hr>
+                      <p><span style="font-weight:bold;">Dept. of Industrial & Commerical Design</span><br>
+                      National Taiwan University of Science and Tech.</p>
+                      <ul>
+                        <li> 2004.09 ~  2008.07</li>
+                        <li>Major in Industrial Design</li>
+                      </ul>
+                  </div>
+                </div>
+            </div><!--Skill-->
           </div>
-          <!--============page01 end===============-->
-          <!--============page02 begin===============-->
+    <!--============page01 end===============-->
+    <!--============page02 begin===============-->
           <div id="menu1" class="tab-pane fade">
             <h3>Menu 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            
           </div>
           <div id="menu2" class="tab-pane fade">
             <h3>Menu 2</h3>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
           </div>
           <!--=============Page03 begin====================-->
-          <div id="menu3" class="tab-pane fade" style="padding-bottom:16px;">
+          <div id="menu3" class="tab-pane fade wow fadeIn" style="padding-bottom:16px;">
             <div class="container-fluid row">
               <div class='col-sm-12 '>
               </div>
-              <div class="col-sm-1"></div>
-              <div class="col-sm-10">
+              <div class="col-sm-2"   ><img src="pic/banner_300_mail.svg" class='wow fadeIn' ></div>
+              <div class="col-sm-9">
                   <h3>Contact</h3>
                   <form  class="form-horizontal text-left" role="contact" action="https://formspree.io/astrosage@gmail.com" method="POST">
                       <div class="form-group">
@@ -123,7 +265,7 @@
                       </div>
                      
                       <div class="col-sm-offset-10 col-sm-2 text-right"   style="padding:0" >
-                        <input type="submit" class="btn btn-default" id="input_submit" value="Send" style="float:right">
+                        <input type="submit" class="btn btn-default" id="input_submit" value="Send" style="float:right" target="_blank">
                       </div>
                       <script type="text/javascript">
                          $(document).ready(function(){
@@ -149,7 +291,7 @@
                             $('#input_message').blur(function(){
                                 if(message.val().length < 1){
                                   $('#input_message').css({'border':'1px solid #E71D32'});
-                                  $('#input_message').attr('placeholder','leave more message');
+                                  $('#input_message').attr('placeholder','leave some message');
                                   $('#input_message').val('');
                                   $('#input_submit').attr('disabled','disabled');
                                 }
@@ -178,7 +320,7 @@
 
                                 if(message.val().length < 1){
                                   $('#input_message').css({'border':'1px solid #E71D32'});
-                                  $('#input_message').attr('placeholder','leave more message');
+                                  $('#input_message').attr('placeholder','leave some message');
                                   $('#input_message').val('');
                                   $('#input_submit').attr('disabled','disabled');
                                 }
@@ -196,13 +338,13 @@
               </div>
               <div class="col-sm-1"></div>
             </div>
-          </div>
+          </div><!--=============Page03 end====================-->
         </div>
       </div>
   </div>
   <!--===Right Content End==-->
   <div class="col-sm-1"></div>
 </div>
-
+    
 </body>
 </html>
