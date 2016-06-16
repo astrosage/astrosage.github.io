@@ -21,6 +21,9 @@ li{color:#959F9F;}
     display: none; 
 }
 
+hr{
+	border-color:grey;
+}
 footer{
 	position: absolute;
 	bottom:0;
@@ -37,6 +40,7 @@ footer{
 	margin: 0 10px;
 	padding: 0;
 	transition: .5s;
+	margin-bottom:32px; 
 }
 
 .content-top{
@@ -64,14 +68,14 @@ ul .nav-pills{
 }
 
 #avatar{
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 	transition: .5s;
+	border-radius:150px;
+	background-color:rgba(255,255,255,.1);
+	margin-top:16px;
 }
 
 #avatar:hover{
-	-webkit-filter: grayscale(10%);
-	filter: grayscale(10%);
+	background-color:rgba(255,255,255,.3);
 	transition: .5s
 }
 
@@ -112,7 +116,7 @@ ul .nav-pills{
 	background-color: white;
 	padding:0;
 	box-shadow: 1px 1px 1px lightgrey;
-	
+
 }
 
 
@@ -156,7 +160,7 @@ ul .nav-pills{
 }
 
 .form-group{
-	border-bottom: 1px solid lightgrey;
+	
 	padding: 8px 0px;
 	margin: 4px;
 }
