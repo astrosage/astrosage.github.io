@@ -5,7 +5,7 @@
 
 body{
 	margin: 0 auto;
-	font-family: 'Noto Sans TC','Noto Sans JP','cwTeXHei', sans-serif;
+	font-family: 'Roboto','Noto Sans TC','Noto Sans JP','cwTeXHei', sans-serif;
 	background-color: #DFE9E9;
 	overflow-x:hidden;
 	background-image: url("pic/background.png");
@@ -22,7 +22,7 @@ li{color:#959F9F;}
 }
 
 hr{
-	border-color:grey;
+	border-color:lightgrey;
 }
 footer{
 	position: absolute;
@@ -69,15 +69,26 @@ ul .nav-pills{
 
 #avatar{
 	transition: .5s;
-	border-radius:150px;
+	border-radius:50%;
 	background-color:rgba(255,255,255,.1);
 	margin-top:16px;
+	animation: avatar .5s ease-in-out;
 }
 
 #avatar:hover{
 	background-color:rgba(255,255,255,.3);
-	transition: .5s
+	transition: .5s;
 }
+
+
+
+@keyframes avatar{
+	0%{padding: 0;background-color:rgba(255,255,255,.1);margin-top:0px;}
+	50%{padding: 8px;background-color:rgba(255,255,255,.3);margin-top:16px;}
+	100%{padding: 0;background-color:rgba(255,255,255,.1);margin-top:16px;}
+  }
+
+
 
 #name_card{
 	padding: 8px;
@@ -235,4 +246,21 @@ ul .nav-pills{
 	0%{width:0%;color:rgba(255,255,255,0);background-color:#6EEDD8;box-shadow: inset -20px 0 2px #6EEDD8;}
 	75%{width:100%;color:rgba(255,255,255,0);background-color:#41D6C3;}
 	100%{width:100%;color:rgba(255,255,255,1);background-color:#41D6C3;box-shadow: inset 0px 0 0px #6EEDD8;}
+}
+
+
+.row{padding: 16px 0;}
+
+.logo{
+	-webkit-filter:opacity(50%);
+	filter:opacity(50%);
+	transition: .5s;
+	margin: 0 auto;
+}
+
+.logo:hover{
+	-webkit-filter:opacity(100%);
+	filter:opacity(100%);
+	background-color:#DFE9E9;
+	transition: .5s;
 }

@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <META NAME="aaron" CONTENT="resume">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/animate.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -66,10 +67,10 @@
     </div>
     
     <ul class="nav nav-pills nav-stacked "  >
-        <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Resume</a></li>
-        <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">UI</a></li>
-        <li id="menu02"><a data-toggle="tab" href="#menu2"><img src="pic/icon/icon_16_id.png" class="menu-icon">ID</a></li>
-        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Contact</a></li>
+        <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Aaron Hsu</a></li>
+        <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">Logo & CI</a></li>
+        <!--li id="menu02"><a data-toggle="tab" href="#menu2"><img src="pic/icon/icon_16_id.png" class="menu-icon">Product Design</a></li>
+        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Contact</a></li-->
     </ul>
     
 
@@ -90,9 +91,9 @@
                 </div>
                 <div class='col-sm-4 text-center'>
                   <img src="pic/banner_300_about.svg" class='wow fadeIn'  id="avatar" >
-                  <h3>Aaron Hsu</h3>
-                  <p>UI/UX Designer</p>
-                  <p>aaron.zl.hsu@gmail.com</p>
+                  <h1 style="font-weight:bold;color:white">Chih-Jung, Hsu</h1>
+                    <h3 style="color:white">UI/UX Designer</h3>
+                    <p style="color:white">aaron.zl.hsu@gmail.com</p>
                 </div>
                 <div class='col-sm-4'>
                 </div>
@@ -182,7 +183,45 @@
                 </div>
             </div><!--Education-->
 
-            <div class="row"><!--language-->
+            <div class="row" >
+                <h3 class='text-center'>Award</h3>
+                <hr>
+                <div class='col-sm-2'>
+                  <img src="pic/banner_300_award.svg" class='wow fadeIn' style="text-align: center; " >
+                </div>
+                <div class='col-sm-10'>
+                 
+                  <div class='col-sm-4 ' >
+                      <h5>Ming Dynasty Chair</h5>
+                      <hr>
+                      <ul>
+                        <li><a href="http://www.emuseum.com.tw/site/artist/artwork_get.aspx?SiteID=G300_AA_004310&F_ID=G300_AP_012531" target="_blank" >11th Taoyuan Creation Award(2012)</a></li>
+                        <li>2013桃源創作展</li>
+                        <li>2011.9 Taiwan Designers' Week</li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>Light Emitting Door</h5>
+                      <hr>
+                      <ul>
+                        <li><a href="http://www.moe-idc.org/achievement/work_content.php?pid1=0&pid2=0&id=2011037" target="_blank">Red Dot Award(2010)</a> </li>
+                        <li><a href="http://www.tisdc.org/show/2009/product_design.php" target="_blank">Taiwan International Student Design Award (2009)/ Silver Award</a></li>
+                        <li><a href="http://ifworlddesignguide.com/entry/49877-light-emitting-door" target="_blank">IF 300 Entry(2009)</a></li>
+                        <li><a href="http://www.yankodesign.com/2011/03/01/saved-by-the-glow/" target="_blank">Yankodesign</a></li>
+                      </ul>
+                  </div>
+                  <div class='col-sm-4' >
+                      <h5>你的視界，我的世界</h5>
+                      <hr>
+                      <ul>
+                        <li>Gigabyte Competition (2009), Silver Award</li>
+                        <li><a href="https://www.youtube.com/watch?v=RO1niBWu5S8" target="_blank">youtube</a></li>
+                      </ul>
+                  </div>
+                </div>
+            </div><!--Education-->
+
+            <div class="row" style="background-color:#ECEFF1"><!--language-->
                 <h3 class='text-center'>Language</h3>
                 <hr>
                 <div class='col-sm-2'>
@@ -234,7 +273,7 @@
                 </div>
                 
             </div><!--language-->
-            <div class="row" style="background-color:#ECEFF1"><!--Skill-->
+            <div class="row" ><!--Skill-->
                 <h3 class='text-center'>Skills</h3>
                 <hr>
                 <div class='col-sm-2'>
@@ -277,11 +316,12 @@
                   </div>
                 </div>
             </div><!--Skill-->
-            <div class="row" style="padding-bottom:32px;background-color:#546E7A;"><!--message-->
-              <div class='col-sm-12 text-center' style="background-color:#FF7832;">
-                  <h3 style="color:white">Looking for a new Challenge</h3>
+            <div class="row" style="padding:0;">
+              <div class='col-sm-12 text-center' id="leave_message_bg" style="background-color:#FF7832;">
+                  <h3 style="color:white;font-style:italic;margin:20px;" id='leave_message'>Hi, I'm Looking for a new Challenge</h3>
               </div>
-              <br>
+            </div>
+            <div class="row" style="padding-top:32px;background-color:#546E7A;"><!--message-->
               <div class="col-sm-2 "   ><img src="pic/banner_300_mail.svg" class='wow fadeIn' ></div>
               <div class="col-sm-9">
                   
@@ -315,6 +355,11 @@
                             var message=$("#input_message");
                             
                            
+                            $('#input_name').focus(function(){
+                                $("#leave_message").text('Thank You');
+                                $("#leave_message_bg").css({"background-color":"#F4511E","transition":".5s"});
+                                
+                            });
 
                             $('#input_name').blur(function(){
                                 if(name.val().length < 1 ){
@@ -346,6 +391,7 @@
 
                             /*判斷姓名欄位是否大於1*/
                             $('#input_submit').mouseover(function(){
+
                                 if(name.val().length < 1 ){
                                   $('#input_name').css({'border':'1px solid #E71D32'});
                                   $('#input_submit').attr('disabled','disabled');
@@ -385,9 +431,43 @@
     <!--============page01 end===============-->
     <!--============page02 begin===============-->
           <div id="menu1" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            
+            <h3>Logo Design</h3>
+            <p>Company, Brand & Products</p>
+            <hr>
+            <div class="row" >
+              <div class="col-sm-3"><img src="pic/logo/logo-1.png" class="wow fadeIn logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-2.png" class="wow fadeIn logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-3.png" class="wow fadeIn logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-4.png" class="wow fadeIn logo"></div>
+            </div>
+            <hr>
+            <div class="row wow fadeIn">
+
+              <div class="col-sm-3"><img src="pic/logo/logo-5.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-6.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-7.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-8.png" class="logo"></div>
+            </div>
+            <hr>
+            <div class="row wow fadeIn">
+              <div class="col-sm-3"><img src="pic/logo/logo-9.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-10.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-11.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-12.png" class="logo"></div>
+            </div>
+            <hr>
+            <div class="row wow fadeIn">
+              <div class="col-sm-3"><img src="pic/logo/logo-13.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-14.png" class="logo"></div>
+              <div class="col-sm-3"><img src="pic/logo/logo-15.png" class="logo"></div>
+              <div class="col-sm-3"></div>
+            </div>
+            <hr>
+            <div class="row ">
+              <div class="col-sm-12"><p>Patentcloud </p><img src="pic/logo/pc.jpg" class="logo img-responsive wow fadeIn"></div>
+              <div class="col-sm-12"><p>Scienbizip</p><img src="pic/logo/sbp.jpg" class="logo img-responsive wow fadeIn"></div>
+            </div>
+
           </div>
           <div id="menu2" class="tab-pane fade">
             <h3>Menu 2</h3>
