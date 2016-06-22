@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+	//959F9F
+    $(document).ready(function(){
+		$("html").keydown(function(event){
+ 	 	  x=event.keyCode;
+ 	 	  	
+
+ 	 	  	if (x==13){
+ 	 			$("#equal").css({"background-color":"#19AB98","transition":".3s","box-shadow":"inset 0px 3px 0px 0px  #05806D","padding-top":"2px"});
+
+            }
+            else if (x==8){
+           		$("#backspace").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+               
+           	}
+
+           	else if (x==46){
+           		$("#key_clear").css({"background-color":"#FF5003","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #D74108","padding-top":"1px"
+           		 	,"color":"white","text-shadow":"none"
+           		});
+               
+           	}
+
+
+           else if (x==96 || x==48){
+           		$("#key0").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+               
+           	}
+
+           else if (x==97 || x==49){
+           		$("#key1").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           		
+           	}
+
+           else if (x==98 || x==50){
+           		$("#key2").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==99 || x==51){
+           		$("#key3").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==100 || x==52){
+           		$("#key4").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==101 || x==53){
+           		$("#key5").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==102 || x==54){
+           		$("#key6").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==103 || x==55){
+           		$("#key7").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==104 || x==56){
+           		$("#key8").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px #959F9F","padding-top":"1px"});
+           	}
+
+
+           	else if (x==105 || x==57){
+           		$("#key9").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==106 ){
+           		$("#key_cross").css({"background-color":"#959F9F","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #6D7777","padding-top":"1px"});
+           	}
+
+           	else if (x==107 ){
+           		$("#key_plus").css({"background-color":"#959F9F","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #6D7777","padding-top":"1px"});
+           	}
+
+           	else if (x==109 ){
+           		$("#key_minus").css({"background-color":"#959F9F","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #6D7777","padding-top":"1px"});
+           	}
+
+           	else if (x==110 || x==190){
+           		$("#key_dot").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #959F9F","padding-top":"1px"});
+           	}
+
+           	else if (x==111){
+           		$("#key_division").css({"background-color":"#959F9F","transition":".3s","box-shadow":"inset 0px 1px 0px 0px  #6D7777","padding-top":"1px"});
+           	}
+
+		});
+
+
+		$("html").keyup(function(event){
+ 	 	  x=event.keyCode;
+ 	 	  if (x==13){
+ 	 			$("#equal").css({"background-color":"#41D6C3","transition":".3s","box-shadow":"none","padding-top":"0px"});
+            }
+
+           else if (x==8){
+           		$("#backspace").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+           	
+           else if (x==46){
+           		$("#input_box").val("");
+           		$("#key_clear").css({"background-color":"#DEE7E7","transition":".3s","box-shadow":"none","padding-top":"0px","color":"initial","text-shadow":" 0 .1em 0 #DFE9E9,0 .3em .2em #959F9F"});
+           	}
+
+           else if (x==96 ||x==48){
+           		$("#key0").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+          else if (x==97 || x==49){
+           		$("#key1").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+ 		  else if (x==98 || x==50){
+           		$("#key2").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+          else if (x==99 || x==51){
+           		$("#key3").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+           	else if (x==100 || x==52){
+           		$("#key4").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+           	else if (x==101 || x==53){
+           		$("#key5").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+           	else if (x==102 || x==54){
+           		$("#key6").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+           	else if (x==103 || x==55){
+           		$("#key7").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+			else if (x==104 || x==56){
+           		$("#key8").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+           	else if (x==105 || x==57){
+           		$("#key9").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+            else if (x==106 ){
+           		$("#key_cross").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+           	else if (x==107 ){
+           		$("#key_plus").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+           	else if (x==109 ){
+           		$("#key_minus").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+           	else if (x==110 || x==190){
+           		$("#key_dot").css({"background-color":" #C8D2D2","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+           	else if (x==111 ){
+           		$("#key_division").css({"background-color":"#AEB8B8","transition":".3s","box-shadow":"none","padding-top":"0px"});
+           	}
+
+		});
+
+       	$("#key_clear").click(function(){
+  		$("#input_box").val("");
+			});
+
+
+
+
+	});
+
+</script>
+
+	<style type="text/css">
+	   body{
+	   	margin: 0 auto;
+	   	text-align: center;
+	   	line-height: calc(100vh/7);
+	    font-family: sans-serif;
+	    font-size: 4vh;
+	    text-shadow: 0 .1em 0 #DFE9E9,0 .3em .2em #959F9F;
+	    
+	    color: #5A6464;
+	   }
+	  input{
+	  	width:90vw;
+	  	height: calc(100vh/12);
+	  	text-align: right;
+	  	background-color:#DFE9E9;
+	  	border:0px solid grey;
+	  	cursor: text;
+	  	padding-right: 1vw;
+	  	border-radius: 2px;
+	  	outline: none;
+	  	margin-top:2vh;
+	  	font-size: 8vh;
+	  	text-shadow: 0 0em 0 #DFE9E9,0 .1em .1em #959F9F
+
+	  }
+	  .container {
+  		display: -webkit-flex;
+  		display: flex;
+  		height: calc(100vh/7);
+		}
+	.initial {
+  		 -webkit-flex: initial;
+          flex: initial;
+  		width: 200px;
+  		min-width: 100px;
+		}
+	.none {
+      -webkit-flex: none;
+          flex: none;
+  		width: 200px;
+		}
+	.flex1 {
+      -webkit-flex: 1;
+          flex: 1;
+          background-color: #C8D2D2;
+          /*border: 1px solid white;*/
+		}
+	.flex2 {
+      -webkit-flex:3 ;
+          flex: 3;
+           background-color: #C8D2D2;
+            /*border: 1px solid white;*/
+
+		}
+
+	.flex3{
+		-webkit-flex:1 ;
+          flex: 1;
+           background-color: #C8D2D2;
+            /*border: 1px solid white;*/
+	}
+
+    #monitor{
+    	background-color: #3C4646;
+
+    }
+	#equal{
+		background-color:#41D6C3;
+	}
+
+	#key_clear{
+	     text-align: left;
+	    
+		background-color: #DEE7E7;
+	}
+
+	#key_clear>p{
+		margin-left:10vw; 
+		margin-top: -0.5vh;
+	}
+
+	.flex1_f{
+		-webkit-flex: 1;
+          flex: 1;
+         /* border: 1px solid white;*/
+   	 	 background-color:#AEB8B8;
+
+	}
+	</style>
+    </head>
+<body >
+ <div class="container">
+   	<div class="flex1" id="monitor"><input id="input_box" type="text" maxlength="10" autofocus></div>
+   	
+ </div>
+ <div class="container">
+   	<div class="flex2" id="key_clear"><p>Clear</p></div>
+   	<div class="flex1"id="backspace">&#8592;</div>
+   
+   
+ </div>
+ <div class="container">
+   	<div class="flex1" id="key7">7</div>
+   	<div class="flex1" id="key8">8</div>
+   	<div class="flex1" id="key9">9</div>
+   	<div class="flex1_f" id="key_division">/</div>
+ </div>
+ <div class="container">
+   	<div class="flex1" id="key4">4</div>
+   	<div class="flex1" id="key5">5</div>
+   	<div class="flex1" id="key6">6</div>
+   	<div class="flex1_f" id="key_cross">*</div>
+ </div>
+ <div class="container">
+   	<div class="flex1" id="key1">1</div>
+   	<div class="flex1" id="key2">2</div>
+   	<div class="flex1" id="key3">3</div>
+   	<div class="flex1_f" id="key_minus">-</div>
+ </div>
+ <div class="container">
+   	<div class="flex1" id="key_dot">.</div>
+   	<div class="flex1" id="key0">0</div>
+   	<div class="flex1" id="key_first" >#</div>
+   	<div class="flex1_f" id='key_plus'>+</div>
+ 
+ </div>
+
+ <div class="container">
+   	<div class="flex1" id="equal">=</div>
+  </div> 	
+
+</body>
+</html> 
