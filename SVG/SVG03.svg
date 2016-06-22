@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="224px"
+	 height="224px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+	<style>
+#line01{
+	animation:svg 6s ease-in-out infinite;
+}
+
+@keyframes svg {
+	0%{stroke-dasharray:200;stroke-dashoffset:200;}
+	100%{stroke-dasharray:200;stroke-dashoffset:0;}
+	
+}
+</style>
+<g id="圖層_1">
+	<g>
+		<rect x="28" y="24" style="fill:#E1BEE7;" width="71" height="87"/>
+		<path style="fill:#CE93D8;" d="M99,25v86H29V25H99 M100,24H28v88h72V24L100,24z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M96,106c0,1.104-0.896,2-2,2H34c-1.104,0-2-0.896-2-2V30c0-1.104,0.896-2,2-2h60
+			c1.104,0,2,0.896,2,2V106z"/>
+	</g>
+	<g>
+		<rect id="box1" x="36" y="48" style="fill:#CE93D8;" opacity="0" width="4" height="16"/>
+		<rect id="box2"	x="43" y="44" style="fill:#CE93D8;" opacity="0" width="4" height="20"/>
+		<rect id="box3"	x="50" y="53" style="fill:#CE93D8;" opacity="0" width="4" height="11"/>
+		<rect id="box4" x="57" y="56" style="fill:#CE93D8;" opacity="0" width="4" height="8"/>
+		<animate id="a01" dur="2s" attributeName="opacity" from="0" to="1" fill="freeze" xlink:href="#box1" begin="0;a04.end" />
+		<animate id="a02" dur="2s" attributeName="opacity"  from="0" to="1"  fill="freeze" xlink:href="#box2" begin="a01.end"/>
+		<animate id="a03" dur="2s" attributeName="opacity"  from="0" to="1"  fill="freeze" xlink:href="#box3" begin="a02.end"/>
+		<animate id="a04" dur="2s" attributeName="opacity"  from="0" to="1"  fill="freeze" xlink:href="#box4" begin="a03.end"/>
+
+
+
+	</g>
+	<path style="fill:#F3E5F5;" d="M91,51c0,6-5.37,11.75-12,11.75s-12-5.495-12-12.125S72.37,38.5,79,38.5V51H91z"/>
+	<path style="fill:#CE93D8;" d="M93.5,51H79V36C87.011,36,93.5,42,93.5,51z"/>
+	<g>
+		<rect x="46" y="17" style="fill:#E1BEE7;" width="35" height="13"/>
+		<path style="fill:#CE93D8;" d="M81,18v12H47V18H81 M82,17H46v14h36V17L82,17z"/>
+	</g>
+	<rect x="35" y="72" style="fill:#E1BEE7;" width="58" height="32"/>
+	<polyline id="line01" style="fill:none;stroke:#FFFFFF;stroke-width:1.4173;stroke-miterlimit:10;" points="38.833,98.208 48.89,91.484 
+		58.252,97.087 71.427,79.999 79.056,90.364 88.417,91.205 	"/>
+</g>
+<g id="ai2html-settings">
+</g>
+</svg>

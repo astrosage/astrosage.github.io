@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+	 height="300px" viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<g id="圖層_1">
+	<g>
+		<rect x="160.5" y="70.5" style="fill:#ECEFF1;stroke:#B0BEC5;stroke-miterlimit:10;" width="30" height="28"/>
+		<g>
+			<g>
+				<rect x="179.5" y="75.5" style="fill:#FFFFFF;stroke:#B0BEC5;stroke-miterlimit:10;" width="7" height="6"/>
+				<rect x="165.5" y="75.5" style="fill:#FFFFFF;stroke:#B0BEC5;stroke-miterlimit:10;" width="7" height="6"/>
+			</g>
+			<rect x="165" y="75" style="fill:#B0BEC5;" width="4" height="4"/>
+			<rect x="179" y="75" style="fill:#B0BEC5;" width="4" height="4"/>
+		</g>
+	</g>
+	<g id="head">
+			<rect x="76.5" y="70.5" style="fill:#ECEFF1;stroke:#B0BEC5;stroke-miterlimit:10;" width="30" height="28"/>
+			<g>
+				<g>
+					<rect x="95.5" y="75.5" style="fill:#FFFFFF;stroke:#B0BEC5;stroke-miterlimit:10;" width="7" height="6"/>
+					<rect x="81.5" y="75.5" style="fill:#FFFFFF;stroke:#B0BEC5;stroke-miterlimit:10;" width="7" height="6"/>
+				</g>
+				<rect id="eye1" x="85" y="75" style="fill:#B0BEC5;" width="4" height="4"/>
+				<rect id="eye2" x="99" y="75" style="fill:#B0BEC5;" width="4" height="4"/>
+			</g>
+		</g>
+	<path style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" d="M111.5,98.5v89.21c0,11.05-8.45,20-19.5,20
+		c-0.33,0-0.25-0.01-1.25-0.03c-10-0.52-19.25-9.26-19.25-19.97V98.5H111.5z"/>
+	<g>
+		
+
+		<path style="fill:#F57C00;" d="M96,188c0,2.209-1.791,4-4,4l0,0c-2.209,0-4-1.791-4-4v-12c0-2.209,1.791-4,4-4l0,0
+			c2.209,0,4,1.791,4,4V188z"/>
+
+	</g>
+	<g>
+		<path style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" d="M237.5,217.5h-46c-11.304,0-21-10.696-21-22v-56h9v56
+			c0,6.342,5.659,13,12,13h46V217.5z"/>
+	</g>
+	<rect x="165.5" y="135.5" style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" width="20" height="10"/>
+	<path style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" d="M195.5,101.5v16.71c0,11.05-8.613,20-19.663,20
+		c-0.33,0-0.169-0.01-1.169-0.029c-10-0.521-19.168-9.261-19.168-19.971V101.5H195.5z"/>
+	<path style="fill:#F57C00;" d="M174.836,106.599l-0.754,1.686h1.008v15.199c-0.321-0.369-0.701-0.735-1.076-1.079
+		c-0.496-0.453-0.985-0.865-1.299-1.153c-0.396-0.367-0.625-0.702-0.753-0.938c-0.065-0.118-0.104-0.212-0.126-0.271
+		c-0.006-0.012-0.009-0.021-0.014-0.03v-2.49c0.676-0.21,1.165-0.839,1.165-1.582c0-0.915-0.741-1.657-1.657-1.657
+		c-0.915,0-1.656,0.742-1.656,1.657c0,0.773,0.53,1.422,1.246,1.604v2.589c0,0,0.012,0.05,0.012,0.051
+		c0.328,1.355,1.711,2.097,2.623,3.025c0.458,0.468,0.805,1.018,1.179,1.553c0.118,0.155,0.258,0.454,0.356,0.695v1.283
+		c-1.152,0.232-2.018,1.249-2.018,2.469c0,1.392,1.127,2.52,2.52,2.52c1.391,0,2.518-1.128,2.518-2.52
+		c0-1.219-0.865-2.236-2.017-2.469c0,0,0-4.841,0-4.861c0-0.486,0.44-1.175,0.703-1.563c0.524-0.773,1.283-1.303,2.01-1.869
+		c0.767-0.596,1.67-1.336,1.699-2.385c0.005-0.179-0.047-2.236-0.019-2.236h1.188v-3.412h-3.412v3.412h1.322v2.417
+		c-0.21,0.293-0.818,1.099-1.33,1.49c-0.359,0.276-1.043,0.771-1.684,1.356c-0.178,0.163-0.334,0.337-0.478,0.519v-11.321h1.008
+		l-0.755-1.686l-0.754-1.685L174.836,106.599z"/>
+	<g>
+		<path style="fill:#FFE0B2;" d="M424,91c2.2,0,4,1.8,4,4v131c0,2.2-1.8,4-4,4H241c-2.2,0-4-1.8-4-4V95c0-2.2,1.8-4,4-4H424z"/>
+		<path style="fill:none;stroke:#FFA726;stroke-miterlimit:10;" d="M427.5,226.5c0,2.209-1.791,4-4,4h-183c-2.209,0-4-1.791-4-4
+			v-131c0-2.209,1.791-4,4-4h183c2.209,0,4,1.791,4,4V226.5z"/>
+	</g>
+	<rect x="155.5" y="96.5" style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" width="40" height="5"/>
+	<circle style="fill:#FFFFFF;stroke:#FFA726;stroke-miterlimit:10;" cx="332.5" cy="160.5" r="53"/>
+	<circle style="fill:#FFE0B2;stroke:#FFA726;stroke-miterlimit:10;" cx="332.5" cy="160.5" r="38"/>
+	<g>
+		<circle style="fill:#FFFFFF;stroke:#FFA726;stroke-miterlimit:10;" cx="249.5" cy="103" r="5"/>
+		<circle style="fill:#FFFFFF;stroke:#FFA726;stroke-miterlimit:10;" cx="249.5" cy="218" r="5"/>
+		<circle style="fill:#FFFFFF;stroke:#FFA726;stroke-miterlimit:10;" cx="414.5" cy="103" r="5"/>
+		<circle style="fill:#FFFFFF;stroke:#FFA726;stroke-miterlimit:10;" cx="414.5" cy="218" r="5"/>
+	</g>
+	
+</g>
+<g id="ai2html-settings">
+</g>
+<animateTransform  id="a01" attributeName="transform" dur="1s" type="translate" from="0,0" to="-5,0" fill="freeze" xlink:href="#eye1" begin="0;a02.end"/>
+<animateTransform  id="a02" attributeName="transform" dur="1s" type="translate" from="-5,0" to="0,0" fill="freeze" xlink:href="#eye1" begin="a01.end"/>
+<animateTransform  id="a03" attributeName="transform" dur="1s" type="translate" from="0,0" to="-5,0" fill="freeze" xlink:href="#eye2" begin="0;a04.end"/>
+<animateTransform  id="a04" attributeName="transform" dur="1s" type="translate" from="-5,0" to="0,0" fill="freeze" xlink:href="#eye2" begin="a03.end"/>
+
+<animateTransform  id="a05" attributeName="transform" dur="1s" type="translate" from="0,0" to="0,18" fill="freeze" xlink:href="#head" begin="1;a06.end+1"/>
+<animateTransform  id="a06" attributeName="transform" dur="1s" type="translate" from="0,18" to="0,0" fill="freeze" xlink:href="#head" begin="a05.end+1"/>
+
+</svg>

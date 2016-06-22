@@ -1,0 +1,202 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+	 height="300px" viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<g id="圖層_1">
+	<g>
+		<g>
+			<path style="fill:#FFFFFF;" d="M159,176c0,1.104-0.896,2-2,2H89c-1.104,0-2-0.896-2-2V84c0-1.104,0.896-2,2-2h68
+				c1.104,0,2,0.896,2,2V176z"/>
+			<path style="fill:none;stroke:#90A4AE;stroke-miterlimit:10;" d="M158.5,175.5c0,1.104-0.896,2-2,2h-68c-1.104,0-2-0.896-2-2v-92
+				c0-1.104,0.896-2,2-2h68c1.104,0,2,0.896,2,2V175.5z"/>
+		</g>
+		<rect x="97" y="96" style="fill:#CFD8DC;" width="48" height="9"/>
+		<rect x="97" y="114" style="fill:#CFD8DC;" width="48" height="9"/>
+		<rect x="97" y="132" style="fill:#CFD8DC;" width="27" height="9"/>
+	</g>
+	<g id='watermark' opacity="0">
+		<g>
+			<path style="fill:#FFFFFF;" d="M269,140c0,1.104-0.896,2-2,2h-28c-1.104,0-2-0.896-2-2v-39c0-1.104,0.896-2,2-2h28
+				c1.104,0,2,0.896,2,2V140z"/>
+			<path style="fill:none;stroke:#90A4AE;stroke-miterlimit:10;" d="M268.5,140.5c0,1.104-0.896,2-2,2h-28c-1.104,0-2-0.896-2-2v-39
+				c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V140.5z"/>
+		</g>
+		<g>
+			<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M261.898,113.825l-3.979,14.035h-1.821l-2.926-10.338
+				c-0.128-0.453-0.203-0.927-0.228-1.423h-0.036c-0.036,0.483-0.12,0.952-0.253,1.405l-2.946,10.356h-1.784l-4.141-14.035h1.703
+				l3.045,10.854c0.133,0.478,0.211,0.946,0.235,1.404h0.055c0.029-0.338,0.13-0.806,0.299-1.404l3.136-10.854h1.458l3.026,10.937
+				c0.096,0.338,0.175,0.773,0.236,1.304h0.035c0.023-0.374,0.114-0.821,0.271-1.341l2.919-10.9H261.898z"/>
+		</g>
+	</g>
+	<g id="copy" opacity="0">
+		<g>
+			<path style="fill:#FFFFFF;" d="M265,191c0,1.104-0.896,2-2,2h-26c-1.104,0-2-0.896-2-2v-36c0-1.104,0.896-2,2-2h26
+				c1.104,0,2,0.896,2,2V191z"/>
+			<path style="fill:none;stroke:#90A4AE;stroke-miterlimit:10;" d="M264.5,190.5c0,1.104-0.896,2-2,2h-26c-1.104,0-2-0.896-2-2v-36
+				c0-1.104,0.896-2,2-2h26c1.104,0,2,0.896,2,2V190.5z"/>
+		</g>
+		<g>
+			<g>
+				<path style="fill:#F3E5F5;" d="M271,196c0,1.104-0.896,2-2,2h-26c-1.104,0-2-0.896-2-2v-36c0-1.104,0.896-2,2-2h26
+					c1.104,0,2,0.896,2,2V196z"/>
+				<path style="fill:none;stroke:#CE93D8;stroke-miterlimit:10;" d="M270.5,196.5c0,1.104-0.896,2-2,2h-26c-1.104,0-2-0.896-2-2
+					v-36c0-1.104,0.896-2,2-2h26c1.104,0,2,0.896,2,2V196.5z"/>
+			</g>
+			<g>
+				<rect x="245.5" y="167.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="19" height="3"/>
+				<rect x="245.5" y="172.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="19" height="4"/>
+				<rect x="245.5" y="178.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="19" height="4"/>
+				<rect x="245.5" y="185.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="10" height="3"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" d="M165.5,149.092v21.075c0,14.549-18,21.071-18,21.071
+			s-18-6.522-18-21.071v-21.075l18-7.899L165.5,149.092z"/>
+		<path style="fill:#F3E5F5;" d="M162,152.244v17.923c0,8.71-9,13.996-14,15.821v-39.521L162,152.244z"/>
+	</g>
+	<g id="print" opacity="0">
+		<g>
+			<polygon style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" points="413.5,167.5 413.5,191.5 407.5,191.5 407.5,179.5 
+				383.5,179.5 383.5,191.5 377.5,191.5 377.5,167.5 			"/>
+			<rect x="383.5" y="179.5" style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" width="24" height="17"/>
+			<rect x="383.5" y="155.5" style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" width="24" height="12"/>
+		</g>
+		<rect x="407" y="170" style="fill:#FFFFFF;" width="4" height="4"/>
+	</g>
+	<g id="edit" opacity="0">
+		
+			<rect x="347.095" y="107.507" transform="matrix(0.7071 0.7071 -0.7071 0.7071 187.8436 -213.223)" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="8.42" height="25.258"/>
+		<polygon style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" points="344.609,132.787 343.12,134.275 334.934,136.507 
+			337.166,128.321 338.654,126.833 		"/>
+		
+			<rect x="358.258" y="106.868" transform="matrix(0.7072 0.707 -0.707 0.7072 183.1793 -224.3646)" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="8.421" height="4.211"/>
+	</g>
+	<g id="del" opacity="0">
+		<rect x="385.5" y="113.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="20" height="24"/>
+		<g>
+			<rect x="383.5" y="106.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="24" height="4"/>
+			<rect x="389.5" y="102.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="12" height="4"/>
+		</g>
+	</g>
+	<g id="lock" opacity="0">
+		<rect x="287.5" y="117.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="32" height="24"/>
+		<path style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" d="M308.5,106.762v6.738h-2v-6.738c0-3.31-2.69-6-6-6
+			s-6,2.69-6,6V117.5h-2v-10.738c0-4.42,3.58-8,8-8S308.5,102.342,308.5,106.762z"/>
+		<path style="fill:#CE93D8;" d="M305.938,125.982c0,0.74,0.063,1.38-0.938,1.73V133h-2v-5.288c0-0.35-1.063-0.99-1.063-1.73
+			c0-1.11,0.9-2,2-2S305.938,124.872,305.938,125.982z"/>
+	</g>
+	<g id="takeout" opacity="0">
+		<polygon style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" points="362.5,160.137 362.5,169.5 358.5,169.5 358.5,160.5 
+			344.5,160.5 344.5,169.5 340.5,169.5 340.5,160.137 343.601,156.5 358.434,156.5 		"/>
+		<rect x="335.5" y="165.5" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="32" height="29"/>
+		<rect x="335.5" y="165.5" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="32" height="29"/>
+		<rect x="333.5" y="165.5" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" width="36" height="12"/>
+		<rect x="340.5" y="175.5" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="4" height="6"/>
+		<rect x="358.5" y="175.5" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="4" height="6"/>
+	</g>
+	<g id="read" opacity="0"> 
+		<polygon style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" points="302.5,160.637 318.5,163.637 318.5,193.637 
+			302.5,190.637 		"/>
+		<polygon style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" points="302.5,160.637 286.5,163.637 286.5,193.637 
+			302.5,190.637 		"/>
+		<rect x="283.5" y="160.5" style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" width="19" height="30"/>
+		<rect x="302.5" y="160.5" style="fill:#FFFFFF;stroke:#90A4AE;stroke-miterlimit:10;" width="19" height="30"/>
+		<polygon style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" points="302.5,190.637 286.5,187.637 286.5,157.637 
+			302.5,160.637 		"/>
+		<polygon style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" points="302.5,190.637 318.5,187.637 318.5,157.637 
+			302.5,160.637 		"/>
+	</g>
+	<line style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" x1="171.125" y1="141" x2="233.125" y2="79"/>
+	<line style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" x1="172.125" y1="159" x2="234.125" y2="221"/>
+</g>
+<g id="ai2html-settings">
+</g>
+
+<animate id="a01"
+
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="0;a09.end"  xlink:href="#watermark"
+             attributeType="XML"
+             />
+
+<animate id="a02"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a01.end"  xlink:href="#lock"/>
+
+<animate id="a03"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a02.end"  xlink:href="#edit"/>
+
+<animate id="a04"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a03.end"  xlink:href="#del"/>
+
+<animate id="a05"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a04.end"  xlink:href="#copy"/>
+
+<animate id="a06"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a05.end"  xlink:href="#read"/>
+
+<animate id="a07"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a06.end"  xlink:href="#takeout"/>
+
+<animate id="a08"
+             attributeName="opacity"  fill="freeze"
+             from="0" to="1" dur=".5s" 
+             begin="a07.end"  xlink:href="#print"/>             
+
+
+
+<animate id="a09"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#watermark"
+             attributeType="XML"
+             />
+
+<animate id="a10"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#lock"/>
+
+<animate id="a11"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#edit"/>
+
+<animate id="a12"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#del"/>
+
+<animate id="a13"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#copy"/>
+
+<animate id="a14"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#read"/>
+
+<animate id="a15"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#takeout"/>
+
+<animate id="a16"
+             attributeName="opacity"  fill="freeze"
+             from="1" to="0" dur=".5s" 
+             begin="a08.end"  xlink:href="#print"/>        
+
+</svg>

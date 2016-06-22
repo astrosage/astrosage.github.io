@@ -73,7 +73,7 @@
         <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Aaron Hsu</a></li>
         <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">Logo & CI</a></li>
         <li id="menu02"><a data-toggle="tab" href="#menu2"><img src="pic/icon/icon_16_id.png" class="menu-icon">Daily UI </a></li>
-        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Contact</a></li>
+        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">SVG</a></li>
     </ul>
     
 
@@ -480,20 +480,42 @@
             <h1>Daily UI</h1>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
             <div class="row ">
+              <div class="col-sm-12"><h3 style="text-align: center;">calculator<a  data-toggle="modal" data-target="#calculator">(HTML)</a></h3><img src="pic/dailyui/daily07.jpg" class="logo img-responsive wow fadeIn"></div>
+               <div class="col-sm-12"><h3 style="text-align: center;">Login<a  data-toggle="modal" data-target="#login">(HTML)</a></h3><img src="pic/dailyui/daily08.jpg" class="logo img-responsive wow fadeIn"></div>
+                <div class="col-sm-12"><h3 style="text-align: center;">Loading<a data-toggle="modal" data-target="#loading">(HTML)</a></h3><img src="pic/dailyui/daily09.jpg" class="logo img-responsive wow fadeIn"></div>
               <div class="col-sm-12"><h3 style="text-align: center;">Boarding Pass</h3><img src="pic/dailyui/daily01.jpg" class="logo img-responsive wow fadeIn"></div><br>
               <div class="col-sm-12"><h3 style="text-align: center;">Invoice</h3><img src="pic/dailyui/daily02.jpg" class="logo img-responsive wow fadeIn"></div><br>
               <div class="col-sm-12"><h3 style="text-align: center;">Price Table</h3><img src="pic/dailyui/daily03.jpg" class="logo img-responsive wow fadeIn"></div><br>
               <div class="col-sm-12"><h3 style="text-align: center;">Music Player</h3><img src="pic/dailyui/daily04.jpg" class="logo img-responsive wow fadeIn"></div><br>
               <div class="col-sm-12"><h3 style="text-align: center;">Credit Card</h3><img src="pic/dailyui/daily05.jpg" class="logo img-responsive wow fadeIn"></div><br>
               <div class="col-sm-12"><h3 style="text-align: center;">404 page</h3><img src="pic/dailyui/daily06.jpg" class="logo img-responsive wow fadeIn"></div>
-              <div class="col-sm-12"><h3 style="text-align: center;">calculator<a  data-toggle="modal" data-target="#calculator">(HTML)</a></h3><img src="pic/dailyui/daily07.jpg" class="logo img-responsive wow fadeIn"></div>
-               <div class="col-sm-12"><h3 style="text-align: center;">Login<a  data-toggle="modal" data-target="#login">(HTML)</a></h3><img src="pic/dailyui/daily08.jpg" class="logo img-responsive wow fadeIn"></div>
-              
+             
+ 
             </div>
           </div>
           <!--=============Page03 begin====================-->
           <div id="menu3" class="tab-pane fade wow fadeIn" style="padding-bottom:16px;">
-            
+              <div class="row" >
+                <div class="col-sm-3"><img src="svg/svg01.svg" class="wow fadeIn logo img-responsive"></div>
+               <div class="col-sm-3"><img src="svg/svg07.svg" class="wow fadeIn logo img-responsive"></div>
+                <div class="col-sm-3"><img src="svg/svg03.svg" class="wow fadeIn logo img-responsive"></div>
+              <div class="col-sm-3"><img src="svg/svg04.svg" class="wow fadeIn logo img-responsive"></div>
+            </div>
+             <div class="row" >
+                <div class="col-sm-3"><img src="svg/svg05.svg" class="wow fadeIn logo img-responsive"></div>
+                <div class="col-sm-3"><img src="svg/svg13.svg" class="wow fadeIn logo img-responsive"></div>
+                <div class="col-sm-3"><img src="svg/svg08.svg" class="wow fadeIn logo img-responsive"></div>  
+                <div class="col-sm-3"><img src="svg/svg14.svg" class="wow fadeIn logo img-responsive"></div>
+            </div>
+             <div class="row" >
+                <div class="col-sm-3"><img src="svg/svg09.svg" class="wow fadeIn logo img-responsive"></div>
+                <div class="col-sm-3"><img src="svg/svg10.svg" class="wow fadeIn logo img-responsive"></div>
+                <div class="col-sm-3"><img src="svg/svg11.svg" class="wow fadeIn logo img-responsive"></div>
+              <div class="col-sm-3"><img src="svg/svg12.svg" class="wow fadeIn logo img-responsive"></div>
+            </div>
+             
+
+
           </div><!--=============Page03 end====================-->
         </div>
       </div>
@@ -509,10 +531,11 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Calculator</h4>
         </div>
         <div class="modal-body">
           <iframe  style="height:500px;width:100%"src="iframe/calc.html"></iframe>
+          <p>Flexbox + keycode</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -530,7 +553,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Login UI</h4>
         </div>
         <div class="modal-body">
           <iframe  style="height:800px;width:100%"src="iframe/login.html"></iframe>
@@ -541,7 +564,56 @@
       </div>
       
     </div>
-  </div><!-- Modal box-login end-->
+  </div><!-- Modal box-calculator end-->
+
+  <!-- Modal box-loading-->
+<div class="modal fade" id="loading" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Loading</h4>
+        </div>
+        <div class="modal-body text-center">
+          <div style="position:relative;top:30px;left:100px" >
+             <svg width="300px" height="300px" fill="none">
+                    
+
+                       <g>
+                      <circle cx="55" cy="55" r="50" stroke="black" stroke-width="0" fill="black" />
+                        <rect x="0" y="0" rx="5" ry="5" width="10" height="10" fill="white" stroke="none" stroke-width="1">
+
+                        <animateMotion path="M15,55a40,40 0 1,0 80,0a40,40 0 1,0 -80,0" id="a"
+                           dur="1s" keyTimes="0;1" keySplines=".5 0 .5 1" repeatCount="indefinite" calcMode="spline" rotate="auto-reverse">
+                       </g>
+                       <g>
+                      <circle cx="60" cy="60" r="40" stroke="black" stroke-width="0" fill="none" />
+                        <rect x="0" y="0" rx="5" ry="5" width="10" height="10" fill="white" stroke="none" stroke-width="1"  >
+
+                        <animateMotion path="M25,55a30,30 0 1,0 60,0a30,30 0 1,0 -60,0" id="b"
+                           dur="2s"keyTimes="0;1" keySplines=".5 0 .5 1" repeatCount="indefinite" calcMode="spline" rotate="auto-reverse">
+                       </g>
+                      
+                       <g>
+                      
+                        <rect x="0" y="0" rx="5" ry="5" width="10" height="10" fill="white" stroke="none" stroke-width="1">
+
+                        <animateMotion path="M35,55a20,20 0 1,0 40,0a20,20 0 1,0 -40,0" id="c"
+                           dur="3s" keyTimes="0;1" keySplines=".5 0 .5 1" repeatCount="indefinite" calcMode="spline" rotate="auto-reverse"  >
+                       </g>
+
+                    </svg> 
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div><!-- Modal box-calculator end-->
     
     
 </body>

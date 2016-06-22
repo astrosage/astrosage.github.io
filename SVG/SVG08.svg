@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+	 height="300px" viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<g id="圖層_1">
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M338.5,159v-29h-59v29h22v12h-12v2h40v-2h-12v-12H338.5z
+		 M282.5,133h53v23h-53V133z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M255.5,133v40h20v-40H255.5z M271.5,147h-12v-3h12V147z
+		 M271.5,141h-12v-3h12V141z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M236.5,159v-29h-59v29h22v12h-12v2h40v-2h-12v-12H236.5z
+		 M180.5,133h53v23h-53V133z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M160.5,153v20h12v-20H160.5z M167.5,161.334
+		c-1.104,0-2-0.896-2-2s0.896-2,2-2c1.104,0,2,0.896,2,2S168.604,161.334,167.5,161.334z"/>
+	<g>
+		<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M223.5,192v29h59v-29H223.5z M279.5,218h-53v-23h53V218z"/>
+		<rect x="221.5" y="223" style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" width="64" height="4"/>
+	</g>
+	<g>
+		<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M219.5,75v29h59V75H219.5z M275.5,101h-53V78h53V101z"/>
+		<polygon style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" points="279.25,107 285.25,115 214.25,115 220.25,107 		"/>
+	</g>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M325.5,73h-29v42h29V73z M299.5,106V76h23v30H299.5z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M212.5,185h-29v42h29V185z M186.5,218v-30h23v30H186.5z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M178.5,75v31h18V75H178.5z M183.5,77h8v2h-8V77z M193.5,100
+		h-12V81h12V100z"/>
+	<path style="fill:#F3E5F5;stroke:#CE93D8;stroke-miterlimit:10;" d="M300.5,196v31h18v-31H300.5z M305.5,198h8v2h-8V198z
+		 M315.5,221h-12v-19h12V221z"/>
+	<circle style="fill:none;stroke:#CE93D8;stroke-miterlimit:10;" cx="250" cy="150" r="119"/>
+	
+		<ellipse transform="matrix(0.7071 0.7071 -0.7071 0.7071 179.2901 -132.8428)" style="fill:none;stroke:#CE93D8;stroke-miterlimit:10;" cx="250" cy="150" rx="80" ry="139.999"/>
+	
+		<ellipse transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 532.8418 79.29)" style="fill:none;stroke:#CE93D8;stroke-miterlimit:10;" cx="250" cy="150" rx="80" ry="139.999"/>
+	<circle id="c01" style="fill:#CE93D8;" cx="0" cy="0" r="5"   />
+	
+</g>
+<g id="ai2html-settings">
+</g>
+
+<animateMotion dur="10s" path="M131,150a119,119 0 1,0 238,0a119,119 0 1,0 -238,0" repeatCount="indefinite"  xlink:href="#c01" transform="rotate(-45)" /> 
+
+
+</svg>

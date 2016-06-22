@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="224px"
+	 height="224px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+	<style>
+#stroke{
+	animation:svg 10s ease-in-out infinite;
+}
+
+@keyframes svg {
+	0%{stroke-dasharray:200;stroke-dashoffset:200;}
+	50%{stroke-dasharray:200;stroke-dashoffset:0;}
+	100%{stroke-dasharray:200;stroke-dashoffset:200;}
+
+}
+</style>
+<g id="圖層_1">
+	<path style="fill:#FFFFFF;stroke:#CE93D8;stroke-miterlimit:10;" d="M100.5,38v27.5h-6V38c0-7.73-6.27-14-14-14s-14,6.27-14,14
+		v27.5h-6V38c0-11.05,8.951-20,20-20C91.541,18,100.5,26.95,100.5,38z"/>
+	<g>
+		<path style="fill:#FFFFFF;" d="M108,102c0,3.313-2.687,6-6,6H58c-3.313,0-6-2.687-6-6V58c0-3.313,2.687-6,6-6h44
+			c3.313,0,6,2.687,6,6V102z"/>
+		<path style="fill:none;stroke:#CE93D8;stroke-miterlimit:10;" d="M108.5,101.5c0,3.313-2.687,6-6,6h-44c-3.313,0-6-2.687-6-6v-44
+			c0-3.313,2.687-6,6-6h44c3.313,0,6,2.687,6,6V101.5z"/>
+	</g>
+	<g>
+		
+			<rect x="52.467" y="63.5" transform="matrix(1 -0.0017 0.0017 1 -0.1117 0.1334)" style="fill:#FFFFFF;stroke:#CE93D8;stroke-miterlimit:10;" width="56" height="8"/>
+		
+			<rect x="52.479" y="71.5" transform="matrix(1 -0.0017 0.0017 1 -0.125 0.1334)" style="fill:#FFFFFF;stroke:#CE93D8;stroke-miterlimit:10;" width="56" height="8"/>
+		
+			<rect x="52.493" y="79.5" transform="matrix(1 -0.0017 0.0017 1 -0.1382 0.1335)" style="fill:#FFFFFF;stroke:#CE93D8;stroke-miterlimit:10;" width="56" height="8"/>
+		
+			<rect x="52.507" y="87.5" transform="matrix(1 -0.0017 0.0017 1 -0.1515 0.1335)" style="fill:#FFFFFF;stroke:#CE93D8;stroke-miterlimit:10;" width="56" height="8"/>
+	</g>
+	<g>
+		<path id="stroke" style="fill:#E1BEE7;stroke:#CE93D8;stroke-miterlimit:10;" d="M67.5,58.17v28.098c0,19.399-24,28.098-24,28.098
+			s-24-8.699-24-28.098V58.17l24-10.536L67.5,58.17z"/>
+		<path style="fill:#F3E5F5;" d="M63,62.374v23.895c0,11.614-12,18.661-18,21.097V54.67L63,62.374z"/>
+	</g>
+</g>
+<g id="ai2html-settings">
+</g>
+</svg>
