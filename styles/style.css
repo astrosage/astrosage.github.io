@@ -264,3 +264,16 @@ ul .nav-pills{
 	background-color:#DFE9E9;
 	transition: .5s;
 }
+
+
+.svg{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	transition: .5s;
+	margin: 0 auto;
+}
+
+.svg:hover{
+	background-color:#DFE9E9;
+	transition: .5s;
+}
