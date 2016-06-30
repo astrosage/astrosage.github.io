@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clock</title>
+    <link  id="favicon" rel="icon" type="image/png" href="icon/favicon1.ico">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      
+     var temp, humd, wdsd, h24r,name;
+     (function () {
+       $(document).on("pageshow", "#home", function () {
+         $.ajax({
+           type: "GET",
+           url: "http://opendata.cwb.gov.tw/opendataapi?dataid=F-C0032-017&authorizationkey=CWB-3967761C-448D-4BDB-B21B-439509D0357C",
+           dataType: "xml",
+           error: function (e) {
+             console.log('oh no');
+           },
+           success: function (e) {
+             var i,
+               $menu = $('#menu'),
+               data = $(e).find('location'),
+               num = data.length,
+               time = data.eq(0).find('time').text();
+             $('.time').append(time);
+
+             for (i = 0; i < num; i++) {
+               $menu.append('<li><a href="#detail">' +
+                 data.eq(i).find('parameter').eq(2).find('parameterValue').text() +
+                 '</a></li>').listview('refresh');
+             }
+             
+             $('li a').on('click',function(){
+               var aIndex = $(this).parent('li').index()-1;
+               temp = data.eq(aIndex).find('weatherElement').eq(3).find('elementValue').text();
+               humd = data.eq(aIndex).find('weatherElement').eq(4).find('elementValue').text();
+              h24r = data.eq(aIndex).find('weatherElement').eq(7).find('elementValue').text();
+              wdsd = data.eq(aIndex).find('weatherElement').eq(2).find('elementValue').text();
+              name = $(this).text();
+             });
+           }
+         });
+       });
+     })();
+     (function () {
+       $(document).on("pageshow", "#detail", function () {
+         $('.temp').append(temp);
+         $('.humd').append(humd);
+         $('.h24r').append(h24r);
+         $('.wdsd').append(wdsd);
+         $('h3').text(name);
+       });
+     })();
+
+
+      $(document).ready(function timer(){
+
+        var d=new Date();
+        var year=d.getFullYear();
+        var mon=d.getMonth()+1;
+        var date=d.getDate();
+        var day=d.getDay();
+        var h=d.getHours();
+        var m=d.getMinutes();
+        var s=d.getSeconds();
+        var week=(day+1)*100/7+'%';
+        var r=m*60;
+        var alpha=s/120+.1; //用秒數控制透明度
+        var launch=11-h;//中午吃飯
+        var launchM=60-m;
+        var checkout=17-h;//下班
+        var circle=102*s/60;//圓圈百分比
+        var circle2=101*m/60;
+        var stroke=32;
+        var stroke2=16;
+        var favicon=s%15;
+
+
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Sun";
+                break;
+            case 1:
+                day = "Mon";
+                break;
+            case 2:
+                day = "Tue";
+                break;
+            case 3:
+                day = "Wed";
+                break;
+            case 4:
+                day = "Thu";
+                break;
+            case 5:
+                day = "Fri";
+                break;
+            case  6:
+                day = "Sat";
+        }
+
+
+        switch (new Date().getMonth()) {
+            case 0:
+                mon = "Jan";
+                break;
+            case 1:
+                mon = "Feb";
+                break;
+            case 2:
+                mon = "Mar";
+                break;
+            case 3:
+                mon = "Apr";
+                break;
+            case 4:
+                mon = "May";
+                break;
+            case 5:
+                mon = "Jun";
+                break;
+            case  6:
+                mon = "Jul";
+                break;
+            case  7:
+                mon = "Aug";
+                break;
+            case  8:
+                mon = "Sep";
+                break;
+            case  9:
+                mon = "Oct";
+                break;        
+            case  10:
+                mon = "Nov";
+                break;    
+             case  11:
+                mon = "Dec";
+                break;        
+        }
+
+
+          if(m<10){
+            $("#timer").html(h+':0'+m);
+            }
+          else if(h<10){
+             $("#timer").html('0'+h+':'+m);
+          }
+          
+          else{
+            $("#timer").html(h+':'+m);
+          }
+          
+
+         
+          if (m<60) {
+             $('body').css({"background-color":"hsla("+ r +", 100%, 20%, "+alpha+")","transition":".5s"}) 
+          } //背景色隨時間變化
+
+           // 時間判斷
+          if (h<11){
+
+             $("#launch").text("Good Morning");
+
+          }
+
+          else if (h<=12){
+
+             $("#launch").text("Good Day");
+
+          }
+
+
+          else if (h>12 && h < 19){
+
+             $("#launch").text("Good Afternoon");
+
+          }
+
+          
+          /*
+            else if(checkout > 0  ){
+
+             $("#launch").text("離下班還有"+checkout+"小時又"+launchM+"分");
+             $(document).attr("title", "撐著啊"+s);
+
+          }*/
+
+
+          else if (h >= 19) {
+
+             $("#launch").text("Good Evening");
+             $(document).attr("title", "GO"+s);
+          }
+
+
+          // 時間判斷
+
+
+          if(s==0){
+             $("#hour").css({"animation":"rotate 1s ease-in-out"})
+          }
+
+          //favicon var icon=favicon_+s; 動態的favicon
+         
+          if(s<60){
+            $("#favicon").attr("href","icon/favicon_"+favicon+".ico");
+          }
+
+          else{
+            $("#favicon").attr("href","icon/favicon_1.ico");
+          }
+
+
+           $("#seconds").css({"stroke-dasharray": ""+circle+" 158","stroke":"hsla("+ r +", 100%, 20%, 1)","transition":"1s","stroke-width":""+stroke+"px"});// 圓餅圖隨時間變化
+            $("#minutes").css({"stroke-dasharray": ""+circle2+" 158","stroke":"hsla("+ r +", 100%, 20%, 1)","transition":"1s","stroke-width":""+stroke2+"px"});// 圓餅圖隨時間變化
+
+          
+          $("#timer").css({"color":"hsla("+ r +", 100%, 20%, 1)","transition":".5s"});//時間顏色
+
+          $("#date").text(year+"/"+mon+'/'+date+'('+day+')');
+          $("#progress_day").css({"width":week}).text(day);
+
+          $("#box_year").text(year);
+          $("#box_month").text(mon);
+          $("#box_date").text(date);
+          $("#box_day").text(day);
+         
+          setTimeout(timer,1000);//每秒更新
+     });
+   </script>
+   <style type="text/css">
+     body{
+      margin: 0 auto;
+      font-family: 'roboto',sans-serif;
+     }
+    
+    #container_a{
+          text-align: center;
+       }
+    #box_date,#box_month,#box_day,#box_year{
+      font-size: 6vh;
+      margin: 12px 0;
+      padding: 8px;
+      border-radius: 5px;
+      opacity: .8;
+    }
+
+    #box_day{
+      font-size: 2vh;
+    }
+
+    #timer{
+      font-size: 6vw;
+      margin: 0;
+      text-shadow: 0px 0px 10px rgba(0,0,0,.1),0px -1px 0px white,0px 1px 0px black;
+     }
+    #date{
+         font-size: 2vw;
+    } 
+    
+    #launch{
+         font-size: 300%;
+      }
+
+    .progress{
+      height:32px;
+      border-radius: 0;
+    }
+
+    .progress-bar{
+      line-height: 32px;
+      font-size: 1.4em;
+      background-color: grey;
+      border-radius: 0;
+    }
+
+    #hour{
+      -webkit-transform-origin:top;
+    }
+
+  svg{  
+    with:20%; height: 20%;
+    transform:rotate(-90deg);
+    background: none;
+    border-radius: 50%;
+    animation:fillup2 1s ease-in-out infinite;
+  }
+
+  circle{
+    fill:none;
+    stroke:black;
+    stroke-width:10px;
+    stroke-dasharray: 0 158;
+    /*animation:fillup 1s ease-in-out infinite;*/
+   /* animation:fill_color 4s ease-in-out infinite;*/
+  }
+
+   @keyframes rotate{
+    0% {transform:rotateX(0deg);}
+    12.5% {transform:rotateX(15deg);}
+    25% {transform:rotateX(45deg);}
+    37.5% {transform:rotateX(75deg);}
+    50% {transform:rotateX(90deg);}
+    62.5% {transform:rotateX(75deg);}  
+    75% {transform:rotateX(45deg);}
+    87.5% {transform:rotateX(15deg);}
+    100% {transform:rotateX(0deg);}
+  }
+
+    
+  </style>
+
+</head>
+<body>
+<div class="container-fluid row" style="margin-top:5%;" >
+  <div class="col-sm-3">
+  </div>
+  <div class="col-sm-3 text-center" >
+       <div class="row" >
+           <div class="col-sm-12 col-xs-12">
+            <div style="background-color:white;" id="box_year"></div>
+          </div>
+           <div class="col-sm-5 col-xs-5">
+            <div style="background-color:white;" id="box_month"></div>
+          </div>
+          <br><br>
+           <div class="col-sm-5 col-xs-5">
+                <div style="background-color:white;" id="box_date"></div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+              <div style="background-color:white;" id="box_day"></div>
+            </div>
+       </div>
+       <br>
+       <div class='row'>
+          <div class="col-sm-12 col-xs-12">
+               <div id="hour" style="background-color:white;border-radius: 5px;
+      opacity: .8;">
+                 <p id="timer" style="font-weight:bold"></p>
+               </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-6 col-xs-6">
+                <svg viewbox="0 0 32 32">
+                 <circle  id="minutes"  r="16" cx="16" cy="16"  />
+                 <circle  style="fill:white;opacity:.5;stroke:white;stroke-width:5;stroke-linecap:round"  r="16" cx="16" cy="16"/>
+               </svg>
+          </div>
+           <div class="col-sm-6 col-xs-6">
+               <svg viewbox="0 0 32 32">
+                 <circle  id="seconds"  r="16" cx="16" cy="16"  />
+                 <circle  style="fill:white;opacity:.5;stroke:white;stroke-width:5;stroke-linecap:round"  r="16" cx="16" cy="16"/>
+               </svg>
+          </div>
+       </div>
+       
+       <hr>
+       <div class="col-sm-12">
+            <p id="launch"></p>
+            <h3></h3>
+            <p class="temp"> </p>
+            <p class="humd"> </p>
+            <p class="h24r"> </p>
+            <p class="wdsd"> </p>
+       </div>
+
+
+       
+    
+  </div>
+  <div class="col-sm-3">
+    
+  </div>
+  <div class="col-sm-3">
+  </div>
+</div>
+</body>
+</html>
