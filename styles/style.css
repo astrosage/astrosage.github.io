@@ -271,9 +271,13 @@ ul .nav-pills{
 	filter:grayscale(100%);
 	transition: .5s;
 	margin: 0 auto;
+	transition: .5s;
 }
 
 .svg:hover{
 	background-color:#DFE9E9;
 	transition: .5s;
 }
+
+
+.
