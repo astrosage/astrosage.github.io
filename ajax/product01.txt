@@ -1,0 +1,24 @@
+<div class="row text-center" style="background-image:url('pic/product/01.jpg'); background-size:100% auto ;background-repeat: no-repeat;">
+                <h1 style="margin-top:10%;">Guide Bricks</h1>
+                <p>Leading people out of darkness</p>
+            </div>
+            <div class="row" >
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><img src="pic/product/01-4.jpg" class="wow fadeIn  img-responsive"></div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><img src="pic/product/01-1.jpg" class="wow fadeIn  img-responsive"></div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><img src="pic/product/01-2.jpg" class="wow fadeIn  img-responsive"></div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><img src="pic/product/01-3.jpg" class="wow fadeIn  img-responsive"></div>
+                <div class="col-sm-2"></div>
+            </div>
