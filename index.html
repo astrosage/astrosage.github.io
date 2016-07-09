@@ -72,20 +72,41 @@
   
 </head>
 <body>
-<div style='height:40px;width: 100%; '>
-</div>
-<div class="container-fluid row" >
-  <div class="col-sm-1" ></div>
-  <!--===left Menu Begin==-->
-  <div class="col-sm-2" id="left_menu"  >
-    <div id="avatar" class="text-center"  >
-      <!--img id="avatar" src="pic/avatar.jpg" style="width:100%;">
-      <div">
-        <h3>Aaron Hsu</h3>
-        <p>UI/UX Designer</p>
-      </div-->
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Aaron Hsu</a></li>
+        <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">Logo & CI</a></li>
+        <li id="menu02"><a data-toggle="tab" href="#menu2"><img src="pic/icon/icon_16_id.png" class="menu-icon">Daily UI </a></li>
+        <li id="menu03"><a data-toggle="tab" href="#menu3"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">SVG</a></li>
+        <li id="illustration"><a data-toggle="tab" href="#menu4"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Illustration</a></li>
+        <li  id="menu05"  data-toggle="tab" ><a data-toggle="collapse" data-target="#demo2"><img src="pic/icon/icon_16_mail_w.png" class="menu-icon">Product Design</a>
+          <ul id="demo2" class="collapse nav  nav-stacked" >
+            <li id="product01"><a data-toggle="tab" href="#menu6">Guide Bricks</a></li>
+            <li id="product02" ><a data-toggle="tab" href="#menu7">Ming Dynasty Chair</a></li>
+            <li><a data-toggle="tab" href="#menu8">Viewex</a></li>
+            <li><a data-toggle="tab" href="#menu9">light</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style='height:20px;width: 100%;' class="hidden-xs">
+</div>
+
+<div class="container-fluid row" >
+  
+  <!--===left Menu Begin==-->
+  <div class="col-sm-2 sidenav hidden-xs"   >
     <ul class="nav nav-pills nav-stacked "  >
         <li class="active" id="menu00"><a data-toggle="tab" href="#home"><img src="pic/icon/icon_16_resume.png" class="menu-icon">Aaron Hsu</a></li>
         <li id="menu01"><a data-toggle="tab" href="#menu1"><img src="pic/icon/icon_16_ui.png" class="menu-icon">Logo & CI</a></li>
@@ -106,7 +127,7 @@
   </div>
   <!--===left Menu End==-->
   <!--===Right Content Begin==-->
-  <div class="col-sm-8" id='right_content'>
+  <div class="col-sm-9" id='right_content'>
       <div class='content-top'>
       </div>
       <div class="container-fluid ">
