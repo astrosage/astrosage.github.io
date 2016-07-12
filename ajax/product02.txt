@@ -1,6 +1,6 @@
 <div class="row text-center" style="background-image:url('pic/product/02.jpg'); background-size:100% auto ;background-repeat: no-repeat;">
                 <h1 style="margin-top:10%;">Ming Dynasty Chair</h1>
-                <p>Leading people out of darkness</p>
+                <p>Sit down, please</p>
             </div>
             <div class="row" >
                 <div class="col-sm-2"></div>
@@ -30,5 +30,6 @@
             <div class="row" >
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8"><img src="pic/product/02-3.png" class="wow fadeIn  img-responsive"></div>
+		<br>
                 <div class="col-sm-2"></div> 
             </div>    
