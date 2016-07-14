@@ -5,7 +5,7 @@
             <div class="row" >
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8"><img src="pic/product/02-1.png" class="wow fadeIn  img-responsive">
-		<p>The Project use  ¡§Found-object¡¨  method to design product. 
+		<p>The Project use "Found-object" method to design product. 
 I observe the territorial behaviors around the
 Taiwan residential area. Then, I find some interested
 phenomenons about the  occupy of the parking lots.
