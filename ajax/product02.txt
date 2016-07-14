@@ -1,21 +1,11 @@
-<div class="row text-center" style="background-image:url('pic/product/02.jpg'); background-size:100% auto ;background-repeat: no-repeat;">
+﻿<div class="row text-center" style="background-image:url('pic/product/02.jpg'); background-size:100% auto ;background-repeat: no-repeat;">
                 <h1 style="margin-top:10%;">Ming Dynasty Chair</h1>
                 <p>Sit down, please</p>
             </div>
             <div class="row" >
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8"><img src="pic/product/02-1.png" class="wow fadeIn  img-responsive">
-		<p>The Project use "Found-object" method to design product. 
-I observe the territorial behaviors around the
-Taiwan residential area. Then, I find some interested
-phenomenons about the  occupy of the parking lots.
-In Taiwan, people often use the red color barriers as the 
-symbols to tell others that no parking here.
-
-
-The Ming Dynasty Chair project reassemble the red color
-barriers to a chair. The goal of the project is to reflect the 
-social issues and the problems of the local environment.
+		<p>在街道上隨處可見「請勿停車」的立牌，它們或站或倒，有的兩兩相鍊而有的則殘破不堪。這是人們為了私占公有土地以作為停車之用，或是避免他人任意的停放車輛，造成自身出入上的不便，這樣的行為也造就了台灣獨有的都市景觀。本創作將兩個請勿停車的立牌拆解重組，藉以模仿人們使用立牌以及「強化」立牌的使用行為。
 </p>
 		</div>
                 <div class="col-sm-2"></div>
