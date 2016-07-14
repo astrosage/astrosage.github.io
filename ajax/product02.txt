@@ -4,8 +4,9 @@
             </div>
             <div class="row" >
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8"><img src="pic/product/02-1.png" class="wow fadeIn  img-responsive"></div>
+                <div class="col-sm-8"><img src="pic/product/02-1.png" class="wow fadeIn  img-responsive">
 		<p>明朝椅，本次創作所參考的原型為中國明清時期的古典家具式樣「禪椅」，其型椅面方正可讓人們盤腿而坐，在上面進行冥想。本創作在觀察人們領域行為的過程，發現請勿停車拒馬的部份造型，剛好符合於禪椅的背面型態，及側面的型態，於是將禪椅的造型特徵運用於設計上面，其中包括其壺口的造型以及椅腳橫樑的特徵「步步高昇」。這把明朝椅的特色，在於它不但強化了「請勿停車」拒馬的結構性，使得拒馬更不易被風吹傾倒；另外一方面它也提供往來行人乘坐的功能，在佔有車位之外可以順便回饋社會環境。</p>
+		</div>
                 <div class="col-sm-2"></div>
             </div>
             <div class="row" >
