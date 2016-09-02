@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <title>Mobile App</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+  <style type="text/css">
+  	body{
+  		font-family: roboto;
+  	}
+  	.frame{
+  		height: 640px;
+  		width: 360px;
+  		background:-webkit-linear-gradient(#29B6F6, #512DA8);
+  		margin: 0 auto;
+  		position: relative;
+  		
+  	}
+  	.title{
+  		position: relative;
+  		width:360px;
+  		height: 56px;
+  		z-index: 99;
+  	}
+
+  	.title-font{
+  		position: relative;
+  		left: 32px;
+  		line-height: 56px;
+  		font-size: 18px;
+  		color: white;
+  	}
+  	.icon{
+  		position: relative;
+  		left: 16px;
+  		top:16px;
+  		float: left;
+  		background-image:url('pic/menu.svg');
+  		height: 24px;
+  		width: 24px;
+  	}
+
+  	.circle{
+  		height: 90px;
+  		width: 90px;
+  		border-radius: 50%;
+  		
+  		background-color: white;
+  		position: relative;
+  		margin: 0 auto;
+  		top:418px;
+  		box-shadow: 0 0 10px 2px rgba(0,0,0,.5);
+  		animation: cir 1s  infinite ease-in-out;
+  		transition:.5s;
+  		z-index: 3;
+  		
+  	}
+
+  	.circle2{
+  		height: 120px;
+  		width: 120px;
+  		border-radius: 50%;
+  		background-color: lightgrey;
+  		position: relative;
+  		margin: 0 auto;
+  		top:312px;
+  		box-shadow: 0 0 30px 2px rgba(255,255,255,.5);
+  		animation: cir2 1s  infinite ease-in-out;
+  		transition:.5s;
+  		z-index: 2;
+  		opacity: .5;
+  		-webkit-filter:blur(50px);
+  	}
+
+  	.circle3{
+  		height: 0px;
+  		width: 0px;
+  		background-color: lightgrey;
+  		margin: 0 auto;
+  		position: relative;
+  		top:45px;
+  		border-radius: 50%;
+  		animation: cir3  1s  infinite ease-in-out;
+  		z-index: 4;
+  		opacity: .5;
+  	}
+
+  	.circle4{
+  		height: 0px;
+  		width: 0px;
+  		background-color: grey;
+  		margin: 0 auto;
+  		position: relative;
+  		top:0px;
+  		border-radius: 50%;
+  		animation: cir4  1s  infinite ease-in-out;
+  		z-index: 5;
+  	}
+
+  	@keyframes cir {
+  		50%{ height: 100px;width: 100px;top:410px;opacity: 1;}
+
+  	}
+
+  	@keyframes cir2 {
+  		50%{ opacity: 0; top:314px;height: 100px;width: 100px;}
+  	}
+
+  	@keyframes cir3 {
+
+  		50%{ height:100px;width:100px;top:0px;opacity: 0; }
+  		100%{ opacity: 0; }
+  	}
+
+  	@keyframes cir4 {
+  		50%{ height:50px;width:50px;top:25px;opacity: 0; }
+  		100%{ opacity: 0; }
+  	}
+
+
+  	
+
+
+  </style>
+</head>
+<body>
+	<div class="frame">
+		<div class="title" >
+			<div class="icon"></div>
+			<p class="title-font"> Mobile Security</p>
+		</div>
+		<a-scene>
+		  <a-assets>
+		    <a-asset-item id="crate-obj" src="pic/poly.obj"></a-asset-item>
+		    <a-asset-item id="crate-mtl" src="pic/poly.mtl"></a-asset-item>
+		  </a-assets>
+		  <!-- Using the asset management system. -->
+		  <a-obj-model src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
+		  <!-- Defining the URL inline. Not recommended but may be more comfortable. -->
+		  <a-obj-model src="crate.obj" mtl="crate.mtl"></a-obj-model>
+		</a-scene>
+		<div class="circle">
+			<div class="circle3">
+				<div class="circle4">
+				</div>
+			</div>
+		</div>
+		<div class="circle2">		
+		</div>
+		
+	</div>
+</body>
+</html>
