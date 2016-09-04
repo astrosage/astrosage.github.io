@@ -256,7 +256,7 @@ ul .nav-pills{
 .row{padding: 16px 0;}
 
 .logo{
-	-webkit-filter:opacity(50%);
+	-webkit-filter:opacity(100%);
 	filter:opacity(50%);
 	transition: .5s;
 	margin: 0 auto;
