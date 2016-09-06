@@ -11,7 +11,7 @@ body{
 	background-image: url("pic/background.png");
 	position: relative;
 }
-h3{color:#008571;}
+h3{color:#008571;padding-top: 32px;}
 
 p{color:#6D7777;}
 
