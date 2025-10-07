@@ -1,73 +1,54 @@
-<!--Welcome to check the page-->
-<!--May you have a nice day-->
-<!--copyright@aaron.zl.hsu@gmail.com-->
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head>
   <title>Aaron Hsu</title>
   <link rel="icon" href="pic/favicon.ico" type="image/gif" sizes="16x16">
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <META NAME="aaron" CONTENT="resume">
   <meta name="description" content="Hsu Chih-Jung Portfolio">
   <meta name="keywords" content="resume,portfolio,ui,user interface">
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="astrosage.github.io"/>
-  <meta property="og:site_name" content="aaron's resume"/>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/animate.css">
-  <script src="//j.wovn.io/1" data-wovnio="key=lJDH2N" async></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/animate.css">
+  
+  <!-- jQuery + Bootstrap -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="scripts/wow.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <!-- WOW animation -->
+  <script src="./scripts/wow.min.js"></script>
   <script>new WOW().init();</script>
+
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  $(document).ready(function() {
+    $('#menu00,#menu01,#menu02,#menu03').on('mouseenter', function() {
+      $('.content-top').css({"animation": "content-top .5s ease-in-out"});
+      $('#right_content').css({"border-top": "2px solid #41D6C3"});
+    }).on('mouseleave', function() {
+      $('.content-top').css({"animation": "none"});
+      $('#right_content').css({"border-top": "2px solid lightgrey"});
+    });
 
-  ga('create', 'UA-78258443-1', 'auto');
-  ga('send', 'pageview');
-	</script>
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('#menu00,#menu01,#menu02,#menu03').click(function(){
-        $('.content-top').css({"animation":"content-top .5s ease-in-out"});
-        $('#right_content').css({"border-top":"2px solid #41D6C3"});
-      });
+    $("#avatar").hover(
+      function(){ $('#name_card').css({'opacity': '.5'}); },
+      function(){ $('#name_card').css({'opacity': '1'}); }
+    );
 
-      $('#menu00,#menu01,#menu02,#menu03').mouseleave(function(){
-        $('.content-top').css({"animation":"none"});
-        $('#right_content').css({"border-top":"2px solid lightgrey"});
-      });
-
-       $("#avatar").mouseover(function(){
-        $('#name_card').css({'opacity':'.5'});
-       });
-
-       $("#avatar").mouseleave(function(){
-        $('#name_card').css({'opacity':'1'});
-       });
-
-    }); 
-
-  $(document).ready(function(){
-   
-    $("#menu4").load('/ajax/illustration.txt');
-    $("#menu6").load('/ajax/product01.txt');
-    $("#menu7").load('/ajax/product02.txt');
-    
+    // ✅ 改為相對路徑
+    $("#menu4").load('ajax/illustration.txt');
+    $("#menu6").load('ajax/product01.txt');
+    $("#menu7").load('ajax/product02.txt');
   });
-
   </script>
-  
 </head>
+
 <body>
 <nav class="navbar navbar-inverse visible-xs">
   <div class="container-fluid">
